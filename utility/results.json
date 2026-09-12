@@ -1,0 +1,285 @@
+{
+  "metrics": {
+    "rows_raw": 652,
+    "columns": 12,
+    "rows_with_missing": 74,
+    "missing_initial": {
+      "id": 0,
+      "age": 0,
+      "income": 0,
+      "home": 0,
+      "emp_length": 9,
+      "intent": 0,
+      "amount": 0,
+      "rate": 66,
+      "status": 0,
+      "percent_income": 0,
+      "default": 0,
+      "cred_length": 0
+    },
+    "rows_after_dropna": 578,
+    "duplicates_removed": 2,
+    "rows_after_drop_duplicates": 576,
+    "anomaly_ids": [
+      0,
+      81,
+      183,
+      210,
+      575
+    ],
+    "rows_clean": 571,
+    "rows_removed": 81,
+    "rows_removed_percent": 12.423312883435583,
+    "unique_observations_removed": 79,
+    "unique_observations_removed_percent": 12.153846153846153,
+    "percent_income_discrepancies": 17,
+    "missing_clean": 0,
+    "duplicates_clean": 0
+  },
+  "group1": [
+    {
+      "home": "MORTGAGE",
+      "Y": 26,
+      "N": 86
+    },
+    {
+      "home": "OTHER",
+      "Y": 2,
+      "N": 0
+    },
+    {
+      "home": "OWN",
+      "Y": 12,
+      "N": 71
+    },
+    {
+      "home": "RENT",
+      "Y": 94,
+      "N": 280
+    }
+  ],
+  "group2_pairs": [
+    {
+      "intent": "EDUCATION",
+      "home": "RENT",
+      "count": 88
+    },
+    {
+      "intent": "VENTURE",
+      "home": "RENT",
+      "count": 65
+    },
+    {
+      "intent": "DEBTCONSOLIDATION",
+      "home": "RENT",
+      "count": 64
+    },
+    {
+      "intent": "PERSONAL",
+      "home": "RENT",
+      "count": 63
+    },
+    {
+      "intent": "MEDICAL",
+      "home": "RENT",
+      "count": 61
+    },
+    {
+      "intent": "HOMEIMPROVEMENT",
+      "home": "RENT",
+      "count": 33
+    },
+    {
+      "intent": "VENTURE",
+      "home": "MORTGAGE",
+      "count": 25
+    },
+    {
+      "intent": "EDUCATION",
+      "home": "MORTGAGE",
+      "count": 24
+    },
+    {
+      "intent": "PERSONAL",
+      "home": "OWN",
+      "count": 20
+    },
+    {
+      "intent": "MEDICAL",
+      "home": "MORTGAGE",
+      "count": 19
+    },
+    {
+      "intent": "PERSONAL",
+      "home": "MORTGAGE",
+      "count": 17
+    },
+    {
+      "intent": "DEBTCONSOLIDATION",
+      "home": "MORTGAGE",
+      "count": 16
+    },
+    {
+      "intent": "VENTURE",
+      "home": "OWN",
+      "count": 16
+    },
+    {
+      "intent": "HOMEIMPROVEMENT",
+      "home": "OWN",
+      "count": 15
+    },
+    {
+      "intent": "EDUCATION",
+      "home": "OWN",
+      "count": 13
+    },
+    {
+      "intent": "MEDICAL",
+      "home": "OWN",
+      "count": 12
+    },
+    {
+      "intent": "HOMEIMPROVEMENT",
+      "home": "MORTGAGE",
+      "count": 11
+    },
+    {
+      "intent": "DEBTCONSOLIDATION",
+      "home": "OWN",
+      "count": 7
+    },
+    {
+      "intent": "EDUCATION",
+      "home": "OTHER",
+      "count": 1
+    },
+    {
+      "intent": "PERSONAL",
+      "home": "OTHER",
+      "count": 1
+    }
+  ],
+  "group2_totals": [
+    {
+      "intent": "EDUCATION",
+      "count": 126
+    },
+    {
+      "intent": "VENTURE",
+      "count": 106
+    },
+    {
+      "intent": "PERSONAL",
+      "count": 101
+    },
+    {
+      "intent": "MEDICAL",
+      "count": 92
+    },
+    {
+      "intent": "DEBTCONSOLIDATION",
+      "count": 87
+    },
+    {
+      "intent": "HOMEIMPROVEMENT",
+      "count": 59
+    }
+  ],
+  "pivot3": [
+    {
+      "age": 26,
+      "income": 125642.78
+    },
+    {
+      "age": 25,
+      "income": 110021.18
+    },
+    {
+      "age": 24,
+      "income": 89681.13
+    },
+    {
+      "age": 23,
+      "income": 86162.54
+    },
+    {
+      "age": 22,
+      "income": 61425.7
+    },
+    {
+      "age": 21,
+      "income": 41783.5
+    }
+  ],
+  "pivot4": [
+    {
+      "intent": "DEBTCONSOLIDATION",
+      "21": 10583.33,
+      "22": 18285.29,
+      "23": 20849.14,
+      "24": 20150.0,
+      "25": 18603.33,
+      "26": 23507.69
+    },
+    {
+      "intent": "EDUCATION",
+      "21": 13500.0,
+      "22": 20487.5,
+      "23": 20586.67,
+      "24": 20355.0,
+      "25": 19628.41,
+      "26": 21758.33
+    },
+    {
+      "intent": "HOMEIMPROVEMENT",
+      "21": 4693.75,
+      "22": 10216.67,
+      "23": 4000.0,
+      "24": 18904.76,
+      "25": 21266.67,
+      "26": 21408.33
+    },
+    {
+      "intent": "MEDICAL",
+      "21": 10666.67,
+      "22": 18418.75,
+      "23": 19323.81,
+      "24": 21652.27,
+      "25": 19284.0,
+      "26": 20011.11
+    },
+    {
+      "intent": "PERSONAL",
+      "21": 3633.33,
+      "22": 16908.82,
+      "23": 18435.87,
+      "24": 21205.0,
+      "25": 21530.43,
+      "26": 18400.0
+    },
+    {
+      "intent": "VENTURE",
+      "21": 8993.18,
+      "22": 16704.69,
+      "23": 22731.67,
+      "24": 19826.04,
+      "25": 18888.1,
+      "26": 18850.0
+    }
+  ],
+  "cleaned_dtypes": {
+    "id": "int64",
+    "age": "int64",
+    "income": "int64",
+    "home": "category",
+    "emp_length": "int64",
+    "intent": "category",
+    "amount": "int64",
+    "rate": "float64",
+    "status": "category",
+    "percent_income": "float64",
+    "default": "category",
+    "cred_length": "int64"
+  }
+}
